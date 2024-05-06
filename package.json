@@ -1,0 +1,24 @@
+{
+  "name": "cors-proxy",
+  "version": "0.0.1",
+  "description": "A CORS proxy.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/mocha/bin/mocha --recursive"
+  },
+  "keywords": [
+    "cors",
+    "proxy"
+  ],
+  "author": "Jacob Clark",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "request-promise": "^4.2.6",
+    "compression": "^1.7.4",
+    "rel-to-abs": "^0.1.0"
+
+  }
+}
